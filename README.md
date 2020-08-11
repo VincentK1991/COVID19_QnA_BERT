@@ -124,3 +124,7 @@ This library provides an easy-to-use BERT model implemented in Pytorch. It has a
 6. [Dash-plotly](https://plotly.com/dash/)
 This library provides an interactive web app, similar to Flask but abstracts away a lot of low-level work. Mostly it is good for dashboard and interactive web app. 
 
+# Appendix
+1. The dataset folder includes the zip file of half database. This is because the whole database is too big to be included here. However, the raw data be found on the Kaggle website. One will have to go through the processing steps laid out here.
+
+2. The Dash web app is default to http://localhost:5000 but it could be set to other ports. In case of deployment, this will be the url provided by the cloud services.
